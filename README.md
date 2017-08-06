@@ -4,4 +4,4 @@ The model implements the kinematic model which ignores tire forces, gravity and 
 
 We learned from the class that the kinematic model predicts the state (t+1) as follows. 
 
-![equations](.Term-2-P5/Kinematic.png)
+![equations](./Kinematic.png)

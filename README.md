@@ -11,4 +11,7 @@ The error terms (CTE and angle error) are updated as follows.
 ![equations](./CTE.png)
 
 # Timestep Lengeth (N) and Elapsed Duration (dt)
-There comes a trade off between the N and dt. The larger N provides more accuracy but slows down the model. 
+There comes a trade off between the N and dt. The larger N provides more accuracy but slows down the model. I started out by playing around with N/dt combinations and tried 10/0.1, 15/0.1, 20/0.05. 15/0.1 seems to provide a good balance between accuracy and calculation time. So that's what I am using for the model.
+
+# Polynomial Fitting and MPC Preprocessing
+
